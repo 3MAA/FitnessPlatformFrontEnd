@@ -1,0 +1,71 @@
+/* About Page Styles */
+.about-container {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #5a7c68;
+  }
+  
+  .values-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .value-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .value-card h3 {
+    font-size: 1.5rem;
+    color: #5a7c68;
+    margin-bottom: 10px;
+  }
+  
+  .value-card p {
+    font-size: 1rem;
+  }
+  
+  .team-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-card {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .team-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .team-card h4 {
+    margin: 10px 0 5px;
+    color: #5a7c68;
+  }
+  
+  .team-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }

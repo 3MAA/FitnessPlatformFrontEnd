@@ -1,0 +1,82 @@
+.subscriptions-container {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .header-subscriptions {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header-subscriptions h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .header-subscriptions p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .plan-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .plan-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .plan-price {
+    font-size: 1.5rem;
+    color: #00aaff;
+    margin: 10px 0;
+  }
+  
+  .plan-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #0077cc;
+  }
+  
+  @media (max-width: 768px) {
+    .plans-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

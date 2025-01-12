@@ -1,0 +1,59 @@
+.input_wrapp {
+  background-color: yellow;
+  width: 65%;
+  height: 7vh;
+  border-radius: 15px;
+  padding: 0 1.5vw;
+  background-color: var(--second);
+  margin-bottom: 2vh;
+}
+
+.input_wrapp_joy {
+  width: 71%;
+  height: 7vh;
+  border-radius: 15px;
+  background-color: var(--second);
+  margin-bottom: 2.5vh;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.input_icon {
+  background-color: var(--second);
+  height: 100%;
+  width: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_icon img {
+  height: 2.5vh;
+  width: 2vw;
+}
+
+input {
+  width: 100%;
+  background-color: var(--second);
+  border: none;
+  margin-left: 3px;
+  box-shadow: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 1vw;
+  padding: 2vw 0 0 0.5vw;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--second) inset !important;
+}

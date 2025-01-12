@@ -1,0 +1,113 @@
+.register-container {
+    background-color: var(--main);
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    height: 100vh;
+  }
+  
+  .register-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-left img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 5rem;
+  }
+  
+  .register-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-panel {
+    background-color: #628571;
+    width: 60%;
+    height: 80%;
+    border-radius: 50px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-header {
+    text-align: center;
+    margin-bottom: 0.3rem;
+  }
+  
+  .register-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--main);
+    color: white;
+  }
+  
+  .register-subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    color: white;
+  }
+  
+  .register-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form {
+    background-color: var(--third);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+
+  .register-button {
+    background-color: var(--third);
+    width: 72%;
+    height: 6vh;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+  .register-button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.6); /* Umbra la hover */
+}
+  
+  .register-form {
+    background-color: var(--third-dark);
+  }
+  
+  .register-alt-auth {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  
+  .register-alt-auth .register-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .register-alt-auth .register-icons img {
+    width: 2.5rem;
+    cursor: pointer;
+  }
+  

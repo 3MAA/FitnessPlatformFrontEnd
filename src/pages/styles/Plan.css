@@ -1,0 +1,60 @@
+.nutritional-plans-container {
+    padding: 100px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .header-nutritional-plans h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .header-nutritional-plans p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .plans-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .plan-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .plan-card h2 {
+    font-size: 1.8rem;
+    color: #00cc44;
+  }
+  
+  .plan-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan-card li {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  

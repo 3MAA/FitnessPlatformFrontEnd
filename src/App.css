@@ -1,0 +1,29 @@
+.app-container {
+  
+ 
+  background-color: var(--neutral-color);
+  position:  relative;
+  overflow: hidden;
+  height: auto;
+}
+
+
+.navbar{
+  position: absolute;
+  margin-bottom: 25px;
+  z-index: 99999;
+}
+.sidebar {
+  position: sticky;
+  display: block;
+}
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    flex: 1;
+    overflow-x: hidden;
+  }
+}

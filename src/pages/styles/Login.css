@@ -1,0 +1,178 @@
+/* General Container */
+.container {
+    background-color: var(--main);
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+/* Left Section */
+.left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-container {
+    background-color: #628571;
+    max-width: 80%;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Section (Image) */
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain; 
+    border-radius: 15px; 
+    margin-right: 5rem;
+}
+
+/* Header Text Styles */
+.text-header-login {
+    color: var(--main);
+    color: white;
+    font-size: 6.5vw;
+    font-weight: bold;
+    margin: 1.5vw 0 0.5vw 0;
+}
+
+.subtext-header-login {
+    color: var(--main);
+    color: white;
+    font-size: 1.2vw;
+    margin: -1vw 0;
+}
+
+/* Form Styling */
+.header-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+
+/* Text for Links */
+.text {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: right;
+    justify-content: right;
+}
+
+.link {
+    color: var(--third);
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.link-text {
+    color: black;
+    font-size: 1vw;
+    margin-right: 0.5vw;
+}
+
+/* Action Button */
+.action_button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-button {
+    background-color: var(--third);
+    width: 72%;
+    height: 6vh;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.auth-button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.6); /* Umbra la hover */
+}
+
+/* Second Authentication Options */
+.second-auth {
+    width: 70%;
+    padding: 2vw 0 0 0;
+    margin-top: 5vh;
+    border-top: 1.5px solid var(--main);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons_auth {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons_auth img {
+    width: 3vw;
+    height: 6vh;
+    cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .panel-container {
+        width: 90vw;
+        height: auto;
+    }
+
+    .text-header-login {
+        font-size: 8vw; /* Mărimea fontului ajustată pe mobil */
+    }
+
+    .subtext-header-login {
+        font-size: 3vw; /* Ajustare font subtext pe mobil */
+    }
+
+    .auth-button {
+        width: 85%; /* Reducem lățimea butonului pe mobil */
+        font-size: 3.5vw;
+    }
+}

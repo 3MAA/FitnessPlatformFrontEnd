@@ -1,0 +1,54 @@
+.workouts-container {
+    padding: 100px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .header-workouts h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .header-workouts p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .workouts-categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .workout-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+  }
+  
+  .workout-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .workout-card h2 {
+    font-size: 1.8rem;
+    color: #00aaff;
+  }
+  
+  .workout-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .workout-card li {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
