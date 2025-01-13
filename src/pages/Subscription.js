@@ -5,7 +5,6 @@ import '../pages/styles/Subscription.css';
 
 const Subscription = () => {
   const handleSubscribe = (plan) => {
-    // Poți implementa aici logica pentru procesul de abonare
     console.log(`You subscribed to the ${plan} plan.`);
   };
 
@@ -15,7 +14,7 @@ const Subscription = () => {
 
       <div className='subscriptions-container'>
         <div className='header-subscriptions'>
-          <h1>Choose Your Plan</h1>
+          <h1>Choose your plan</h1>
           <p>Select a subscription plan that suits your needs.</p>
         </div>
 

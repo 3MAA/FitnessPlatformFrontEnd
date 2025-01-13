@@ -22,7 +22,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className='hero-section'>
         <div className='hero-content'>
-          <h1 className='hero-title'>Unleash Your Potential</h1>
+          <h1 className='hero-title'>Unleash your potential</h1>
           <p className='hero-subtitle'>
             Join the fitness revolution. Personalized workouts and expert
             coaching await you.
