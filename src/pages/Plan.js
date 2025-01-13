@@ -79,7 +79,7 @@ const Plan = () => {
 
       <div className='nutritional-plans-container'>
         <div className='header-nutritional-plans'>
-          <h1>Nutritional Plans</h1>
+          <h1>Nutritional plans</h1>
           <p>Choose a diet plan that aligns with your health objectives.</p>
         </div>
 

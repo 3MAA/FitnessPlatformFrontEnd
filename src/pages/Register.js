@@ -50,25 +50,30 @@ const Register = () => {
       confirmPassword: '',
     };
 
+    // Validare username
     if (!formData.username || formData.username.length < 3) {
       newErrors.username = 'Username must be at least 3 characters long.';
     }
 
+    // Validare email
     if (!formData.email || !emailPattern.test(formData.email)) {
       newErrors.email = 'The email address is not valid.';
     }
 
+    // Validare parolă
     if (!formData.password || !passwordPattern.test(formData.password)) {
       newErrors.password =
         'Password must contain one uppercase letter or digit.';
     }
 
+    // Validare confirmare parolă
     if (formData.password !== formData.confirmPassword) {
       newErrors.confirmPassword = 'Passwords do not match.';
     }
 
     setErrors(newErrors);
 
+    // Verificăm dacă există erori și validăm formularul
     if (!Object.values(newErrors).some((message) => message !== '')) {
       alert('Registration successful!');
       setFormData({
@@ -102,10 +107,7 @@ const Register = () => {
               value={formData.username}
               onChange={handleChange}
               formHelperText={
-                <span style={{ color: 'white' }}>
-                  {errors.username ||
-                    'Username must be at least 3 characters long.'}
-                </span>
+                <span style={{ color: 'white' }}>{errors.username || ''}</span>
               }
             />
             <CustomJoyInput
@@ -116,9 +118,7 @@ const Register = () => {
               value={formData.email}
               onChange={handleChange}
               formHelperText={
-                <span style={{ color: 'white' }}>
-                  {errors.email || 'The email address is not valid.'}
-                </span>
+                <span style={{ color: 'white' }}>{errors.email || ''}</span>
               }
             />
             <CustomJoyInput
@@ -134,10 +134,7 @@ const Register = () => {
               value={formData.password}
               onChange={handleChange}
               formHelperText={
-                <span style={{ color: 'white' }}>
-                  {errors.confirmPassword ||
-                    'Password must contain one uppercase letter or digit.'}
-                </span>
+                <span style={{ color: 'white' }}>{errors.password || ''}</span>
               }
             />
             <CustomJoyInput
@@ -149,7 +146,7 @@ const Register = () => {
               onChange={handleChange}
               formHelperText={
                 <span style={{ color: 'white' }}>
-                  {errors.confirmPassword || 'Passwords do not match.'}
+                  {errors.confirmPassword || ''}
                 </span>
               }
             />
