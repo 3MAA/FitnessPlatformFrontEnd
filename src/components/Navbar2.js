@@ -23,6 +23,10 @@ function Navbar2() {
     navigate('/goal');
   };
 
+  const handleLogout = () => {
+    navigate('/');
+  };
+
   return (
     <div>
       {/* Navigation */}
@@ -65,6 +69,14 @@ function Navbar2() {
             className='nav-link'
           >
             Goals
+          </button>
+          <button
+            type='button'
+            role='link'
+            onClick={handleLogout}
+            className='nav-link'
+          >
+            Logout
           </button>
         </nav>
       </header>

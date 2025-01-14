@@ -1,0 +1,96 @@
+/* CSS pentru GoalCard */
+.goal-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 20px;
+  }
+  
+  .goal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Informații despre obiectiv */
+  .goal-info {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .goal-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .goal-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  .goal-label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Acțiuni */
+  .goal-actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .goal-actions .btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .goal-actions .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Culori butoane */
+  .edit-btn {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .draft-btn {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .draft-btn:hover {
+    background-color: #117a8b;
+  }
+  
+  .final-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .final-btn:hover {
+    background-color: #218838;
+  }
+  
