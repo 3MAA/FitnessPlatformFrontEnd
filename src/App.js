@@ -9,6 +9,7 @@ import Register from './pages/Register';
 import Subscription from './pages/Subscription';
 import Workout from './pages/Workout';
 import Plan from './pages/Plan';
+import Goal from './pages/Goal';
 
 import { jwtDecode } from 'jwt-decode';
 
@@ -87,6 +88,7 @@ function App() {
             <Route path='/subscription' element={<Subscription />} />
             <Route path='/workout' element={<Workout />} />
             <Route path='/plan' element={<Plan />} />
+            <Route path='/goal' element={<Goal />} />
           </Routes>
         </BrowserRouter>
       </div>
