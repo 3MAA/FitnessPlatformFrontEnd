@@ -38,39 +38,6 @@ const Plan = () => {
         'Dinner: Stir-fried tofu with brown rice and vegetables',
       ],
     },
-    {
-      goal: 'Keto',
-      description: 'A low-carb, high-fat plan for ketosis.',
-      meals: [
-        'Breakfast: Omelet with spinach and cheese',
-        'Snack: Avocado with sea salt',
-        'Lunch: Grilled chicken Caesar salad (no croutons)',
-        'Snack: Cheese sticks',
-        'Dinner: Grilled salmon with zucchini noodles',
-      ],
-    },
-    {
-      goal: 'Vegetarian',
-      description: 'A plant-based diet rich in nutrients.',
-      meals: [
-        'Breakfast: Overnight oats with almond milk',
-        'Snack: Fresh fruit salad',
-        'Lunch: Lentil soup with whole-grain bread',
-        'Snack: Roasted chickpeas',
-        'Dinner: Stuffed bell peppers with quinoa and black beans',
-      ],
-    },
-    {
-      goal: 'Mediterranean',
-      description: 'A heart-healthy diet inspired by Mediterranean cuisine.',
-      meals: [
-        'Breakfast: Greek yogurt with honey and walnuts',
-        'Snack: Cucumber slices with tzatziki',
-        'Lunch: Grilled chicken gyros with whole-grain pita',
-        'Snack: Olives and feta cheese',
-        'Dinner: Baked cod with ratatouille',
-      ],
-    },
   ];
 
   return (
